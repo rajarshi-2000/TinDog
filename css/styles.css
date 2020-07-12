@@ -1,0 +1,200 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: #ffff;
+  color: black;
+}
+
+/* Headings */
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.section-heading {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+
+
+/* Title Section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Navigation Bar */
+
+.logo {
+  width: 50px;
+  margin: 0 10px 10px 0;
+}
+
+.navbar {
+  font-weight: 400;
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item{
+  margin: auto 18px auto 18px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  opacity: 0.5;
+}
+
+.nav-item:hover {
+  font-weight: bold;
+}
+
+
+/* download button */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.fab {
+  margin-right: 4px;
+}
+
+/* phone image */
+
+.phone{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature {
+  padding: 5%;
+}
+
+.feature-heading {
+  color: black;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.feature-icon {
+  font-size: 3.5rem;
+  color: #ef8172;
+  margin-bottom: 20px;
+}
+
+.feature-icon:hover {
+  text-decoration: none;
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-heading{
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 12%;
+  border-radius: 100%;
+  margin: 30px;
+}
+
+/* Press */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+.pricing-card {
+  padding: 3% 2%;
+}
+
+.price-value {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+#pricing .h3 {
+  color: black;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* Call to Action */
+
+
+/* Footer */
+
+#footer .container-fluid {
+  padding-bottom: 4%;
+}
+
+.footer-icon {
+  color: black;
+  margin: 15px 10px;
+}
+
+/* Media Query */
+
+@media (max-width: 1100px) {
+  #title {
+    text-align: center;
+  }
+
+  .phone {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
